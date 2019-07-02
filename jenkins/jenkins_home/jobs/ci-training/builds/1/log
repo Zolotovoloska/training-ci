@@ -1,0 +1,22 @@
+Started by user [8mha:////4L+noxC24vLOEmp/5R3lZ6qf7H+Xipv7LZhL2+qdXpRvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mNastia Kvas
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ci-training
+using credential 2116a287-f6a4-4c2f-a5da-61c9f7dcc9ca
+Cloning the remote Git repository
+Cloning repository https://github.com/Zolotovoloska/training-ci.git
+ > git init /var/jenkins_home/workspace/ci-training # timeout=10
+Fetching upstream changes from https://github.com/Zolotovoloska/training-ci.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/Zolotovoloska/training-ci.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Zolotovoloska/training-ci.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Zolotovoloska/training-ci.git # timeout=10
+Fetching upstream changes from https://github.com/Zolotovoloska/training-ci.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/Zolotovoloska/training-ci.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE

@@ -1,0 +1,11 @@
+commit 52d3499aeb218eb9e3890bf48fe674d65bceb8bb
+tree 614b28bd96dce374f769f4d425f39e4d0ac67824
+parent f1e52ec2ff26a29b96a9926d52e0479bc040db89
+author Zolotovoloska <anastasiia.kvas@gmail.com> 2019-07-02 12:26:58 +0300
+committer Zolotovoloska <anastasiia.kvas@gmail.com> 2019-07-02 12:26:58 +0300
+
+    Added Jenkinsfile
+
+
+
+:100644 100644 44c2cafa6b4cf8db72b819cb063e34339d4cd900 2fa88c6a041ffaebd209f7f14054ef6dc1aa991e M	Jenkinsfile

@@ -1,0 +1,154 @@
+Started by user [8mha:////4L+noxC24vLOEmp/5R3lZ6qf7H+Xipv7LZhL2+qdXpRvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mNastia Kvas
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ci-training
+using credential 2116a287-f6a4-4c2f-a5da-61c9f7dcc9ca
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Zolotovoloska/training-ci # timeout=10
+Fetching upstream changes from https://github.com/Zolotovoloska/training-ci
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/Zolotovoloska/training-ci +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1c6ce349fffe518e878f3c3aba75ae5c204b6874 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1c6ce349fffe518e878f3c3aba75ae5c204b6874
+Commit message: "first commit"
+First time build. Skipping changelog.
+[ci-training] $ /bin/sh -xe /tmp/jenkins745369738800100683.sh
++ java -version
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (build 1.8.0_212-b04)
+OpenJDK 64-Bit Server VM (build 25.212-b04, mixed mode)
+[ci-training] $ /bin/sh -xe /tmp/jenkins7561470759430893891.sh
++ cd flask-app
++ docker-compose up -d --build
+Creating network "flask-app_app-network" with driver "bridge"
+Creating volume "flask-app_junit-report" with default driver
+Building flask-db
+Step 1/5 : FROM mysql:5.7
+5.7: Pulling from library/mysql
+Digest: sha256:c3594c6528b31c6222ba426d836600abd45f554d078ef661d3c882604c70ad0a
+Status: Downloaded newer image for mysql:5.7
+ ---> a1aa4f76fab9
+Step 2/5 : LABEL maintainer="Pavlo Bornia"
+ ---> Running in b5c960965754
+Removing intermediate container b5c960965754
+ ---> f2019d667475
+Step 3/5 : ENV MYSQL_DATABASE='db'
+ ---> Running in 923683310eaa
+Removing intermediate container 923683310eaa
+ ---> 3b5999bad439
+Step 4/5 : EXPOSE 3306
+ ---> Running in 3be3b73ecad1
+Removing intermediate container 3be3b73ecad1
+ ---> 708f7f65d9c5
+Step 5/5 : CMD ["mysqld"]
+ ---> Running in cb589a539806
+Removing intermediate container cb589a539806
+ ---> a55cc5b35186
+Successfully built a55cc5b35186
+Successfully tagged flask-app_flask-db:latest
+Building flask-app
+Step 1/6 : FROM python:2.7
+2.7: Pulling from library/python
+Digest: sha256:7df7f0095d81a2f833d477e787eebf2305baa4b9ca65aa8e6fac3f745c9c829f
+Status: Downloaded newer image for python:2.7
+ ---> 37093962fbf5
+Step 2/6 : COPY . /var/opt
+ ---> 26ea9859f5c9
+Step 3/6 : WORKDIR /var/opt
+ ---> Running in a6d4e2514a8e
+Removing intermediate container a6d4e2514a8e
+ ---> 8dc22e831550
+Step 4/6 : RUN pip install -r requirements.txt     && mkdir -p /var/opt/junit-report
+ ---> Running in 332a71de5075
+[91mDEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+[0mCollecting flask (from -r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/9a/74/670ae9737d14114753b8c8fdf2e8bd212a05d3b361ab15b44937dfd40985/Flask-1.0.3-py2.py3-none-any.whl (92kB)
+Collecting flask-sqlalchemy (from -r requirements.txt (line 2))
+  Downloading https://files.pythonhosted.org/packages/08/ca/582442cad71504a1514a2f053006c8bb128844133d6076a4df17117545fa/Flask_SQLAlchemy-2.4.0-py2.py3-none-any.whl
+Collecting mysql-python (from -r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/a5/e9/51b544da85a36a68debe7a7091f068d802fc515a3a202652828c73453cad/MySQL-python-1.2.5.zip (108kB)
+Collecting pytest (from -r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/8c/6f/4db6124788e9b281d94693e21e5a40d00f417763dcda10edc8a70655cb92/pytest-4.6.4-py2.py3-none-any.whl (229kB)
+Collecting Redis (from -r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/ac/a7/cff10cc5f1180834a3ed564d148fb4329c989cbb1f2e196fc9a10fa07072/redis-3.2.1-py2.py3-none-any.whl (65kB)
+Collecting itsdangerous>=0.24 (from flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting Jinja2>=2.10 (from flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl (124kB)
+Collecting Werkzeug>=0.14 (from flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/9f/57/92a497e38161ce40606c27a86759c6b92dd34fcdb33f64171ec559257c02/Werkzeug-0.15.4-py2.py3-none-any.whl (327kB)
+Collecting click>=5.1 (from flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)
+Collecting SQLAlchemy>=0.8.0 (from flask-sqlalchemy->-r requirements.txt (line 2))
+  Downloading https://files.pythonhosted.org/packages/62/3c/9dda60fd99dbdcbc6312c799a3ec9a261f95bc12f2874a35818f04db2dd9/SQLAlchemy-1.3.5.tar.gz (5.9MB)
+Collecting wcwidth (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting funcsigs>=1.0; python_version < "3.0" (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting atomicwrites>=1.0 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomicwrites-1.3.0-py2.py3-none-any.whl
+Collecting packaging (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/91/32/58bc30e646e55eab8b21abf89e353f59c0cc02c417e42929f4a9546e1b1d/packaging-19.0-py2.py3-none-any.whl
+Collecting py>=1.5.0 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/76/bc/394ad449851729244a97857ee14d7cba61ddb268dce3db538ba2f2ba1f0f/py-1.8.0-py2.py3-none-any.whl (83kB)
+Collecting six>=1.10.0 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting importlib-metadata>=0.12 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/bd/23/dce4879ec58acf3959580bfe769926ed8198727250c5e395e6785c764a02/importlib_metadata-0.18-py2.py3-none-any.whl
+Collecting pathlib2>=2.2.0; python_version < "3.6" (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/67/c6/4dbf5dfdbe1140cadf765c3896acc098578626c35721bc7d3eb35f6a8fc1/pathlib2-2.3.4-py2.py3-none-any.whl
+Collecting more-itertools<6.0.0,>=4.0.0; python_version <= "2.7" (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/2f/9d/dcfe59e213093695f108508af1214cf9cd95cc5489e46877ec5cb56369e5/more_itertools-5.0.0-py2-none-any.whl (52kB)
+Collecting pluggy<1.0,>=0.12 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/06/ee/de89e0582276e3551df3110088bf20844de2b0e7df2748406876cc78e021/pluggy-0.12.0-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10->flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/fb/40/f3adb7cf24a8012813c5edb20329eb22d5d8e2a0ecf73d21d6b85865da11/MarkupSafe-1.1.1-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting pyparsing>=2.0.2 (from packaging->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/dd/d9/3ec19e966301a6e25769976999bd7bbe552016f0d32b577dc9d63d2e0c49/pyparsing-2.4.0-py2.py3-none-any.whl (62kB)
+Collecting configparser>=3.5; python_version < "3" (from importlib-metadata>=0.12->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/ba/05/6c96328e92e625fc31445d24d75a2c92ef9ba34fc5b037fe69693c362a0d/configparser-3.7.4-py2.py3-none-any.whl
+Collecting contextlib2; python_version < "3" (from importlib-metadata>=0.12->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/a2/71/8273a7eeed0aff6a854237ab5453bc9aa67deb49df4832801c21f0ff3782/contextlib2-0.5.5-py2.py3-none-any.whl
+Collecting zipp>=0.5 (from importlib-metadata>=0.12->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/a0/0f/9bf71d438d2e9d5fd0e4569ea4d1a2b6f5a524c234c6d221b494298bb4d1/zipp-0.5.1-py2.py3-none-any.whl
+Collecting scandir; python_version < "3.5" (from pathlib2>=2.2.0; python_version < "3.6"->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/df/f5/9c052db7bd54d0cbf1bc0bb6554362bba1012d03e5888950a4f5c5dadc4e/scandir-1.10.0.tar.gz
+Building wheels for collected packages: mysql-python, SQLAlchemy, scandir
+  Building wheel for mysql-python (setup.py): started
+  Building wheel for mysql-python (setup.py): finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/07/d2/5f/314860e4cb53a44bf0ee0d051d4b34465e4b4fbe9de6d42f42
+  Building wheel for SQLAlchemy (setup.py): started
+  Building wheel for SQLAlchemy (setup.py): finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/f4/74/97/23789e1e541fb3d64dc9a921a676539695b3d184cf77f5b009
+  Building wheel for scandir (setup.py): started
+  Building wheel for scandir (setup.py): finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/91/95/75/19c98a91239878abbc7c59970abd3b4e0438a7dd5b61778335
+Successfully built mysql-python SQLAlchemy scandir
+Installing collected packages: itsdangerous, MarkupSafe, Jinja2, Werkzeug, click, flask, SQLAlchemy, flask-sqlalchemy, mysql-python, wcwidth, funcsigs, atomicwrites, six, pyparsing, packaging, py, configparser, contextlib2, scandir, pathlib2, zipp, importlib-metadata, more-itertools, pluggy, attrs, pytest, Redis
+Successfully installed Jinja2-2.10.1 MarkupSafe-1.1.1 Redis-3.2.1 SQLAlchemy-1.3.5 Werkzeug-0.15.4 atomicwrites-1.3.0 attrs-19.1.0 click-7.0 configparser-3.7.4 contextlib2-0.5.5 flask-1.0.3 flask-sqlalchemy-2.4.0 funcsigs-1.0.2 importlib-metadata-0.18 itsdangerous-1.1.0 more-itertools-5.0.0 mysql-python-1.2.5 packaging-19.0 pathlib2-2.3.4 pluggy-0.12.0 py-1.8.0 pyparsing-2.4.0 pytest-4.6.4 scandir-1.10.0 six-1.12.0 wcwidth-0.1.7 zipp-0.5.1
+Removing intermediate container 332a71de5075
+ ---> 58edf1ba3c2f
+Step 5/6 : EXPOSE 80
+ ---> Running in e6e9fe12614a
+Removing intermediate container e6e9fe12614a
+ ---> c9142a052e83
+Step 6/6 : CMD python app.py
+ ---> Running in 9d554206f55f
+Removing intermediate container 9d554206f55f
+ ---> 42c9e14d0b0f
+Successfully built 42c9e14d0b0f
+Successfully tagged flask-app_flask-app:latest
+Pulling redis-db (redis:latest)...
+latest: Pulling from library/redis
+Digest: sha256:ca2d9251c2818df48c6598e01a5bdeab46040dc7ab236abe075d7c7343465177
+Status: Downloaded newer image for redis:latest
+Creating flask-app_flask-db_1 ... 
+Creating flask-app_redis-db_1 ... 
+[2A[2KCreating flask-app_flask-db_1 ... [32mdone[0m[2BCreating flask-app_flask-app_1 ... 
+[2A[2KCreating flask-app_redis-db_1  ... [32mdone[0m[2B[1A[2KCreating flask-app_flask-app_1 ... [32mdone[0m[1BFinished: SUCCESS

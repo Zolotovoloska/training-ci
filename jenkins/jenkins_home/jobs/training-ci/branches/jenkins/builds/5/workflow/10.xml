@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.70">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.70">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=jenkins</string>
+            <string>GIT_COMMIT=52d3499aeb218eb9e3890bf48fe674d65bceb8bb</string>
+            <string>GIT_LOCAL_BRANCH=jenkins</string>
+            <string>GIT_PREVIOUS_COMMIT=f1e52ec2ff26a29b96a9926d52e0479bc040db89</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=ac48d4a1f01c5ac59ba15cfa6bd0262fc2b93d54</string>
+            <string>GIT_URL=https://github.com/Zolotovoloska/training-ci.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.35">
+      <startTime>1562059646399</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

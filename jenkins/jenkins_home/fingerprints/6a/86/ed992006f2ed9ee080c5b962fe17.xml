@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 09:10:28.218 UTC</timestamp>
+  <md5sum>6a86ed992006f2ed9ee080c5b962fe17</md5sum>
+  <fileName>Credential id=github name=admin/****** (GitHub Access Token)</fileName>
+  <usages>
+    <entry>
+      <string>training-ci/jenkins</string>
+      <ranges>1-13</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

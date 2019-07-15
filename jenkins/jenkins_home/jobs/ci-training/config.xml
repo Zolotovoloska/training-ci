@@ -11,7 +11,7 @@
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
         <url>https://github.com/Zolotovoloska/training-ci</url>
-        <credentialsId>2116a287-f6a4-4c2f-a5da-61c9f7dcc9ca</credentialsId>
+        <credentialsId>37163ca4-beeb-41ef-9353-baf852b7c397</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -32,6 +32,10 @@
   <builders>
     <hudson.tasks.Shell>
       <command>java -version</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>cd flask-app;
+docker-compose down</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>

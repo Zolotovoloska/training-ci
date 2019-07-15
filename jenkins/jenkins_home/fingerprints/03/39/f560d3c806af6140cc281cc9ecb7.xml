@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 08:54:09.887 UTC</timestamp>
+  <md5sum>0339f560d3c806af6140cc281cc9ecb7</md5sum>
+  <fileName>Credential id=2116a287-f6a4-4c2f-a5da-61c9f7dcc9ca name=jenkins</fileName>
+  <usages>
+    <entry>
+      <string>ci-training</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

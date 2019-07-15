@@ -1,0 +1,17 @@
+Connection refused (Connection refused)
+SSH Connection failed with IOException: "Connection refused (Connection refused)", retrying in 15 seconds.  There are 10 more retries left.
+Connection refused (Connection refused)
+SSH Connection failed with IOException: "Connection refused (Connection refused)", retrying in 15 seconds.  There are 9 more retries left.
+ERROR: null
+java.util.concurrent.CancellationException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:121)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at hudson.plugins.sshslaves.SSHLauncher.launch(SSHLauncher.java:475)
+	at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:294)
+	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:71)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[07/15/19 11:16:23] Launch failed - cleaning up connection

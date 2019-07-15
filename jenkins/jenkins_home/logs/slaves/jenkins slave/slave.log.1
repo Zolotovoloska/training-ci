@@ -1,0 +1,34 @@
+SSHLauncher{host='35.195.255.66', port=22, credentialsId='d16644ab-b52a-44a4-944f-1886c239e903', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[07/15/19 12:13:43] [SSH] Opening SSH connection to 35.195.255.66:22.
+[07/15/19 12:13:43] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
+ERROR: Server rejected the 1 private key(s) for private key for slave updated 2 (credentialId:d16644ab-b52a-44a4-944f-1886c239e903/method:publickey)
+ERROR: Failed to authenticate as private key for slave updated 2 with credential=d16644ab-b52a-44a4-944f-1886c239e903
+java.io.IOException: Publickey authentication failed.
+	at com.trilead.ssh2.auth.AuthenticationManager.authenticatePublicKey(AuthenticationManager.java:302)
+	at com.trilead.ssh2.Connection.authenticateWithPublicKey(Connection.java:451)
+	at com.cloudbees.jenkins.plugins.sshcredentials.impl.TrileadSSHPublicKeyAuthenticator.doAuthenticate(TrileadSSHPublicKeyAuthenticator.java:109)
+	at com.cloudbees.jenkins.plugins.sshcredentials.SSHAuthenticator.authenticate(SSHAuthenticator.java:436)
+	at com.cloudbees.jenkins.plugins.sshcredentials.SSHAuthenticator.authenticate(SSHAuthenticator.java:473)
+	at hudson.plugins.sshslaves.SSHLauncher.openConnection(SSHLauncher.java:855)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:419)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:406)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: The connection is closed.
+	at com.trilead.ssh2.auth.AuthenticationManager.deQueue(AuthenticationManager.java:72)
+	at com.trilead.ssh2.auth.AuthenticationManager.getNextMessage(AuthenticationManager.java:100)
+	at com.trilead.ssh2.auth.AuthenticationManager.authenticatePublicKey(AuthenticationManager.java:277)
+	... 11 more
+Caused by: java.io.IOException: Cannot read full block, EOF reached.
+	at com.trilead.ssh2.crypto.cipher.CipherInputStream.getBlock(CipherInputStream.java:81)
+	at com.trilead.ssh2.crypto.cipher.CipherInputStream.read(CipherInputStream.java:108)
+	at com.trilead.ssh2.transport.TransportConnection.receiveMessage(TransportConnection.java:232)
+	at com.trilead.ssh2.transport.TransportManager.receiveLoop(TransportManager.java:706)
+	at com.trilead.ssh2.transport.TransportManager$1.run(TransportManager.java:502)
+	... 1 more
+[07/15/19 12:13:44] [SSH] Authentication failed.
+Authentication failed.
+[07/15/19 12:13:44] Launch failed - cleaning up connection
+[07/15/19 12:13:44] [SSH] Connection closed.

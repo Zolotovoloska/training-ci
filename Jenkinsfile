@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'jenkins slave'
+      label 'master'
     }
 
   }

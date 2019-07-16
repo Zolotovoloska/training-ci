@@ -1,0 +1,278 @@
+Branch indexing
+[8mha:////4AXYT117vNXQoRKh3FQIAdeGgL+3uWvZzZ+w/BVqKhkuAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHT2zyc+/wCQm4WcjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Obtained Jenkinsfile from e85239ca341b9006b1deeb67be451d7b1800b8b9
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4IuMTAhf9mr5xq5mjMPgQ8LbiR4Y+a3UiA4NGZm3mxP4AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4G3p1hVC/FAk/mt4B45If/on2QW2E0pBEzUaXokiT5niAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4B+bNNmqJK4u4UiL3ICCwqvCy1C8iWPztxSbN1KaOVx8AAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYp/eT83ILSktQi/azUvOzMvGJVI4PinMSyVH0A17qCMM8AAAA=[0mjenkins slave in /home/jenkins/workspace/training-ci_jenkins
+[8mha:////4LLHOPhlKbWi3YaZe9fQSs19NYfgNMDmWVNAKFhvcN9gAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4I6yzlDrO8y6L2PTUYbmUzzklLfuVPbvhXNeK9bUzn7YAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4OtNLEijilyegG4vj/4wcg3lQZB+pBytGox0v8vqXF5WAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ly7DYH+8WVUTZ+f32TUiwIjQBb3zyb8DrwO1MTfoi55AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+using credential github
+Fetching changes from the remote Git repository
+Cleaning workspace
+Fetching without tags
+ > git rev-parse --is-inside-work-tree # timeout=10
+ > git config remote.origin.url https://github.com/Zolotovoloska/training-ci.git # timeout=10
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching upstream changes from https://github.com/Zolotovoloska/training-ci.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/Zolotovoloska/training-ci.git +refs/heads/jenkins:refs/remotes/origin/jenkins
+Checking out Revision e85239ca341b9006b1deeb67be451d7b1800b8b9 (jenkins)
+Commit message: "Added Jenkinsfile"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e85239ca341b9006b1deeb67be451d7b1800b8b9
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D jenkins # timeout=10
+ > git checkout -b jenkins e85239ca341b9006b1deeb67be451d7b1800b8b9
+ > git rev-list --no-walk 2300936192b589cd93cdf617a618b75a12d5e3b5 # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+[8mha:////4ELuRF7Hn5dLKImSGrkTcer6hk+xELVINOvje1ggLWCgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4LLjOIpmLCrmul3VNeCXJGZQ1goZIiuwIx1JbdYhbmtOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4KgOo7U5UtxJfNzJ9Sx+dBi+jJYZMnA1uy9v3EPNLAhaAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4DlSag++5zRaUJWgNIpoIpFTw1yripLuSILrotPhZ42SAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4FxXHZg1fUFR4XpXFJIYPwSmn8WmPlvhOCGXMj7HTSxbAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4ECrpSKtczavtx7ZQxygHo118lgTEF4GTCwkDioxPfJzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Echo some text)
+[8mha:////4NaYvCU0PAxzpj8YWrX945pmh8AeBzESyBzT9v4S3xTUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ echo Some text
+Some text
+[8mha:////4Fia4aw+X73S+nspBrsyjw2mu8sYoRoKJXaSOSRAeVbAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4D19DvgtNrl+IjtketZZLF997vysmWwaZJZboAuleijHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4FNO8SZ1dxtfmWVkaBz24GSX+yZX6gIRK3YEycek2J3PAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4H0r77D6HR3bmtA7HNnXM2TIFQ8chHEdAszZYerzUJriAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Git Checkout /Git)
+[8mha:////4BgE+C8s0gdZr5Rx2xH80tUJEmN6p8325WWotGkqkNFNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] git
+Warning: CredentialId "2116a287-f6a4-4c2f-a5da-61c9f7dcc9ca	" could not be found.
+Fetching changes from the remote Git repository
+Checking out Revision c52eba8ba1f196df4f84b45965319e19b9a16f90 (refs/remotes/origin/master)
+ > git rev-parse --is-inside-work-tree # timeout=10
+ > git config remote.origin.url https://github.com/Zolotovoloska/training-ci # timeout=10
+Fetching upstream changes from https://github.com/Zolotovoloska/training-ci
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Zolotovoloska/training-ci +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c52eba8ba1f196df4f84b45965319e19b9a16f90
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master c52eba8ba1f196df4f84b45965319e19b9a16f90
+Commit message: "second c"
+ > git rev-list --no-walk c52eba8ba1f196df4f84b45965319e19b9a16f90 # timeout=10
+[8mha:////4LdISGQcnfBAI9GWalN96+wUMeLAnMaz2MQJUjn5comNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4KfijgKkCvUcmkpUdKLS9iLZou8JcsCHf09HEwhb+8IGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4D01/DOyqqo4xVsWIEU7Y+ZaCme/7nhagdb9Is8EJSaSAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohU7YqYWKMunCCkISSN/m+TlHbiRFyNOxCoxIQHy7ZkvecLyhjgSMFwp7G3GJXlg59MTnym0F89zdzRhSvCSF7zVs8tdfq01paShlUFg42ArUblKVo0CXbCybusvERTnVPI20EAs90IDyhEJicZ0rcsAfa3qYuEP85fACxDAlbX2Zrm8yzf8hZCqsIAAAA=[0m[Pipeline] stage
+[8mha:////4L+uxXm24GCk39tGZbVOU/1RH7b+JxKx0hMbrNhnJTZFAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Run app)
+[8mha:////4FzWF07YTGvuFGR0PsaIx0aj4EdcIBavZpls5bs1BzLEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] dir
+Running in /home/jenkins/workspace/training-ci_jenkins/flask-app
+[8mha:////4LJGPqyO2LV26QY1M/n+8HT4lgQ+zS2mutmmPdjUmbP0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4ApzOEui9ZYzsKmnfePlbuSlaEOsY1nQD0UDBJw58clKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ docker-compose up -d --build
+Building flask-db
+Step 1/5 : FROM mysql:5.7
+ ---> a1aa4f76fab9
+Step 2/5 : LABEL maintainer="Pavlo Bornia"
+ ---> Using cache
+ ---> afb7193c4ad6
+Step 3/5 : ENV MYSQL_DATABASE='db'
+ ---> Using cache
+ ---> d995cfe5a429
+Step 4/5 : EXPOSE 3306
+ ---> Using cache
+ ---> 12df90175d45
+Step 5/5 : CMD ["mysqld"]
+ ---> Using cache
+ ---> f572cd653b42
+Successfully built f572cd653b42
+Successfully tagged flask-app_flask-db:latest
+Building flask-app
+Step 1/6 : FROM python:2.7
+ ---> 3edf9092825f
+Step 2/6 : COPY . /var/opt
+ ---> Using cache
+ ---> 3d908b286915
+Step 3/6 : WORKDIR /var/opt
+ ---> Using cache
+ ---> 6b90602c6e76
+Step 4/6 : RUN pip install -r requirements.txt     && mkdir -p /var/opt/junit-report
+ ---> Running in e21cfef04b00
+[91mDEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+[0mCollecting flask (from -r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/9b/93/628509b8d5dc749656a9641f4caf13540e2cdec85276964ff8f43bbb1d3b/Flask-1.1.1-py2.py3-none-any.whl (94kB)
+Collecting flask-sqlalchemy (from -r requirements.txt (line 2))
+  Downloading https://files.pythonhosted.org/packages/08/ca/582442cad71504a1514a2f053006c8bb128844133d6076a4df17117545fa/Flask_SQLAlchemy-2.4.0-py2.py3-none-any.whl
+Collecting mysql-python (from -r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/a5/e9/51b544da85a36a68debe7a7091f068d802fc515a3a202652828c73453cad/MySQL-python-1.2.5.zip (108kB)
+Collecting pytest (from -r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/8c/6f/4db6124788e9b281d94693e21e5a40d00f417763dcda10edc8a70655cb92/pytest-4.6.4-py2.py3-none-any.whl (229kB)
+Collecting Redis (from -r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/ac/a7/cff10cc5f1180834a3ed564d148fb4329c989cbb1f2e196fc9a10fa07072/redis-3.2.1-py2.py3-none-any.whl (65kB)
+Collecting click>=5.1 (from flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)
+Collecting Werkzeug>=0.15 (from flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/9f/57/92a497e38161ce40606c27a86759c6b92dd34fcdb33f64171ec559257c02/Werkzeug-0.15.4-py2.py3-none-any.whl (327kB)
+Collecting itsdangerous>=0.24 (from flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting Jinja2>=2.10.1 (from flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl (124kB)
+Collecting SQLAlchemy>=0.8.0 (from flask-sqlalchemy->-r requirements.txt (line 2))
+  Downloading https://files.pythonhosted.org/packages/62/3c/9dda60fd99dbdcbc6312c799a3ec9a261f95bc12f2874a35818f04db2dd9/SQLAlchemy-1.3.5.tar.gz (5.9MB)
+Collecting funcsigs>=1.0; python_version < "3.0" (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting py>=1.5.0 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/76/bc/394ad449851729244a97857ee14d7cba61ddb268dce3db538ba2f2ba1f0f/py-1.8.0-py2.py3-none-any.whl (83kB)
+Collecting packaging (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/91/32/58bc30e646e55eab8b21abf89e353f59c0cc02c417e42929f4a9546e1b1d/packaging-19.0-py2.py3-none-any.whl
+Collecting importlib-metadata>=0.12 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/bd/23/dce4879ec58acf3959580bfe769926ed8198727250c5e395e6785c764a02/importlib_metadata-0.18-py2.py3-none-any.whl
+Collecting pluggy<1.0,>=0.12 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/06/ee/de89e0582276e3551df3110088bf20844de2b0e7df2748406876cc78e021/pluggy-0.12.0-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting pathlib2>=2.2.0; python_version < "3.6" (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/67/c6/4dbf5dfdbe1140cadf765c3896acc098578626c35721bc7d3eb35f6a8fc1/pathlib2-2.3.4-py2.py3-none-any.whl
+Collecting atomicwrites>=1.0 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomicwrites-1.3.0-py2.py3-none-any.whl
+Collecting wcwidth (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting more-itertools<6.0.0,>=4.0.0; python_version <= "2.7" (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/2f/9d/dcfe59e213093695f108508af1214cf9cd95cc5489e46877ec5cb56369e5/more_itertools-5.0.0-py2-none-any.whl (52kB)
+Collecting attrs>=17.4.0 (from pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10.1->flask->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/fb/40/f3adb7cf24a8012813c5edb20329eb22d5d8e2a0ecf73d21d6b85865da11/MarkupSafe-1.1.1-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting pyparsing>=2.0.2 (from packaging->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/dd/d9/3ec19e966301a6e25769976999bd7bbe552016f0d32b577dc9d63d2e0c49/pyparsing-2.4.0-py2.py3-none-any.whl (62kB)
+Collecting zipp>=0.5 (from importlib-metadata>=0.12->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/da/bd/1a5fdf15aa44231fd09f63ecf175b60f057ae37ec65b343bb009364923f3/zipp-0.5.2-py2.py3-none-any.whl
+Collecting configparser>=3.5; python_version < "3" (from importlib-metadata>=0.12->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/ba/05/6c96328e92e625fc31445d24d75a2c92ef9ba34fc5b037fe69693c362a0d/configparser-3.7.4-py2.py3-none-any.whl
+Collecting contextlib2; python_version < "3" (from importlib-metadata>=0.12->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/a2/71/8273a7eeed0aff6a854237ab5453bc9aa67deb49df4832801c21f0ff3782/contextlib2-0.5.5-py2.py3-none-any.whl
+Collecting scandir; python_version < "3.5" (from pathlib2>=2.2.0; python_version < "3.6"->pytest->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/df/f5/9c052db7bd54d0cbf1bc0bb6554362bba1012d03e5888950a4f5c5dadc4e/scandir-1.10.0.tar.gz
+Building wheels for collected packages: mysql-python, SQLAlchemy, scandir
+  Building wheel for mysql-python (setup.py): started
+  Building wheel for mysql-python (setup.py): finished with status 'error'
+[91m  ERROR: Complete output from command /usr/local/bin/python -u -c 'import setuptools, tokenize;__file__='"'"'/tmp/pip-install-ppvkNl/mysql-python/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-xCoAnC --python-tag cp27:
+[0m[91m  ERROR: running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-2.7
+  copying _mysql_exceptions.py -> build/lib.linux-x86_64-2.7
+  creating build/lib.linux-x86_64-2.7/MySQLdb
+  copying MySQLdb/__init__.py -> build/lib.linux-x86_64-2.7/MySQLdb
+  copying MySQLdb/converters.py -> build/lib.linux-x86_64-2.7/MySQLdb
+  copying MySQLdb/connections.py -> build/lib.linux-x86_64-2.7/MySQLdb
+  copying MySQLdb/cursors.py -> build/lib.linux-x86_64-2.7/MySQLdb
+  copying MySQLdb/release.py -> build/lib.linux-x86_64-2.7/MySQLdb
+  copying MySQLdb/times.py -> build/lib.linux-x86_64-2.7/MySQLdb
+  creating build/lib.linux-x86_64-2.7/MySQLdb/constants
+  copying MySQLdb/constants/__init__.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+  copying MySQLdb/constants/CR.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+  copying MySQLdb/constants/FIELD_TYPE.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+  copying MySQLdb/constants/ER.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+  copying MySQLdb/constants/FLAG.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+  copying MySQLdb/constants/REFRESH.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+  copying MySQLdb/constants/CLIENT.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+  running build_ext
+  building '_mysql' extension
+  creating build/temp.linux-x86_64-2.7
+  gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Dversion_info=(1,2,5,'final',1) -D__version__=1.2.5 -I/usr/include/mariadb -I/usr/include/mariadb/mysql -I/usr/local/include/python2.7 -c _mysql.c -o build/temp.linux-x86_64-2.7/_mysql.o
+  In file included from _mysql.c:44:
+  /usr/include/mariadb/my_config.h:3:2: warning: #warning This file should not be included by clients, include only <mysql.h> [-Wcpp]
+   #warning This file should not be included by clients, include only <mysql.h>
+    ^~~~~~~
+  In file included from _mysql.c:46:
+  /usr/include/mariadb/mysql.h:440:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+     MYSQL_CLIENT_PLUGIN_HEADER
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  _mysql.c: In function ‘_mysql_ConnectionObject_ping’:
+  _mysql.c:2005:41: error: ‘MYSQL’ {aka ‘struct st_mysql’} has no member named ‘reconnect’
+    if ( reconnect != -1 ) self->connection.reconnect = reconnect;
+                                           ^
+  error: command 'gcc' failed with exit status 1
+  ----------------------------------------
+[0m[91m  ERROR: Failed building wheel for mysql-python
+[0m  Running setup.py clean for mysql-python
+  Building wheel for SQLAlchemy (setup.py): started
+  Building wheel for SQLAlchemy (setup.py): finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/f4/74/97/23789e1e541fb3d64dc9a921a676539695b3d184cf77f5b009
+  Building wheel for scandir (setup.py): started
+  Building wheel for scandir (setup.py): finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/91/95/75/19c98a91239878abbc7c59970abd3b4e0438a7dd5b61778335
+Successfully built SQLAlchemy scandir
+Failed to build mysql-python
+Installing collected packages: click, Werkzeug, itsdangerous, MarkupSafe, Jinja2, flask, SQLAlchemy, flask-sqlalchemy, mysql-python, funcsigs, py, pyparsing, six, packaging, zipp, configparser, contextlib2, scandir, pathlib2, importlib-metadata, pluggy, atomicwrites, wcwidth, more-itertools, attrs, pytest, Redis
+  Running setup.py install for mysql-python: started
+    Running setup.py install for mysql-python: finished with status 'error'
+[91m    ERROR: Complete output from command /usr/local/bin/python -u -c 'import setuptools, tokenize;__file__='"'"'/tmp/pip-install-ppvkNl/mysql-python/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-IXeKt6/install-record.txt --single-version-externally-managed --compile:
+[0m[91m    ERROR: running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.7
+    copying _mysql_exceptions.py -> build/lib.linux-x86_64-2.7
+    creating build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/__init__.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/converters.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/connections.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/cursors.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/release.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/times.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    creating build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/__init__.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/CR.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/FIELD_TYPE.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/ER.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/FLAG.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/REFRESH.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/CLIENT.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    running build_ext
+    building '_mysql' extension
+    creating build/temp.linux-x86_64-2.7
+    gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Dversion_info=(1,2,5,'final',1) -D__version__=1.2.5 -I/usr/include/mariadb -I/usr/include/mariadb/mysql -I/usr/local/include/python2.7 -c _mysql.c -o build/temp.linux-x86_64-2.7/_mysql.o
+    In file included from _mysql.c:44:
+    /usr/include/mariadb/my_config.h:3:2: warning: #warning This file should not be included by clients, include only <mysql.h> [-Wcpp]
+     #warning This file should not be included by clients, include only <mysql.h>
+      ^~~~~~~
+    In file included from _mysql.c:46:
+    /usr/include/mariadb/mysql.h:440:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+       MYSQL_CLIENT_PLUGIN_HEADER
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+    _mysql.c: In function ‘_mysql_ConnectionObject_ping’:
+    _mysql.c:2005:41: error: ‘MYSQL’ {aka ‘struct st_mysql’} has no member named ‘reconnect’
+      if ( reconnect != -1 ) self->connection.reconnect = reconnect;
+                                             ^
+    error: command 'gcc' failed with exit status 1
+    ----------------------------------------
+[0m[91mERROR: Command "/usr/local/bin/python -u -c 'import setuptools, tokenize;__file__='"'"'/tmp/pip-install-ppvkNl/mysql-python/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-IXeKt6/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-install-ppvkNl/mysql-python/
+[0mService 'flask-app' failed to build: The command '/bin/sh -c pip install -r requirements.txt     && mkdir -p /var/opt/junit-report' returned a non-zero code: 1
+[8mha:////4G0TH8BbNPPxJQ0/HIi0dkVNQTJTp08ZqvZMWFxvGu84AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4L1Fm0tQRywaA489eXFqUwJQCmB9B9CcAjxQoieLLsNTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // dir
+[8mha:////4Os+8f0AVFzJNLW3zFituSC10EovcyX3conm8gd2OH1GAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N5XuKbK+AAAA[0m[Pipeline] }
+[8mha:////4O+XsXofyf46BLdFgPpAGCRreGPA1cv6CMXbaCyjrGnZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJBoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzsc9X1B3+EVkS+AAAA[0m[Pipeline] // stage
+[8mha:////4I/pDHcLLGSHw1GkbhA5BE7SGNsFmAq6yrjOrQsTq881AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUESNiYo2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XNCnCgaJjncXeY9KeDWF0JbGJYn8JNLGOzkwTJgqWSTtJMva4VEnZwqKqhpWAtUUdKHl0GTaiU3fVBoWuPeVYtr2A2psbPKAShZxVzN8yR9heR5MIf5y/AJiHDDXnxXb882ze6G+hisIAAAA=[0m[Pipeline] stage
+[8mha:////4D9CtZvn3BP8okSVuRF8D1J8rsSAcas2soy2ON95G7zKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Change Current Dir)
+Stage "Change Current Dir" skipped due to earlier failure(s)
+[8mha:////4P8HfPwsQZ9NvcL9LDKxqGtqU6PFxAY0Ec/a03QiiYabAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fkMfZ274AAAA=[0m[Pipeline] }
+[8mha:////4NxfY09bUpYLUX2lNCezaRDaVOzqVyt1FDJderIYjcU2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BpKm1V++AAAA[0m[Pipeline] // stage
+[8mha:////4FzIDBirCqWO/uwpku0ugrbLlHudUT9fbm55ql+NdP2/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCFEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QG1F7+mvgAAAA==[0m[Pipeline] }
+[8mha:////4Dyy1dx3Cloxm6yUTGe3al+CD/Qr5tCm9fXLlC0MGHkpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICQqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w+NVSxXvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4KkB2MJ8rlj3H+wsCEQetmVygEiehXMYvt6krcWn9Z27AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQKJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AJ5WrS29AAAA[0m[Pipeline] }
+[8mha:////4P934TkIhhwZddHYRZX0NbeakVuwDMctUq8K2CaTjSwuAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMLCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH7FSZMb0AAAA=[0m[Pipeline] // node
+[8mha:////4Bc/Q/Us8XKUQKsp8zeTf1ELprf7FHSXY6WpWS+RAzu1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPyk3+e70AAAA=[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 1
+Finished: FAILURE

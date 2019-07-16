@@ -16,6 +16,6 @@
     <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy"/>
     <tcpNoDelay>true</tcpNoDelay>
   </launcher>
-  <label>jenkins slave label</label>
+  <label>jenkins slave</label>
   <nodeProperties/>
 </slave>

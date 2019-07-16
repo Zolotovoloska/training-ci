@@ -1,6 +1,6 @@
 SSHLauncher{host='35.195.255.66', port=22, credentialsId='d16644ab-b52a-44a4-944f-1886c239e903', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
-[07/15/19 12:09:20] [SSH] Opening SSH connection to 35.195.255.66:22.
-[07/15/19 12:09:20] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
+[07/15/19 12:13:43] [SSH] Opening SSH connection to 35.195.255.66:22.
+[07/15/19 12:13:43] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
 ERROR: Server rejected the 1 private key(s) for private key for slave updated 2 (credentialId:d16644ab-b52a-44a4-944f-1886c239e903/method:publickey)
 ERROR: Failed to authenticate as private key for slave updated 2 with credential=d16644ab-b52a-44a4-944f-1886c239e903
 java.io.IOException: Publickey authentication failed.
@@ -28,7 +28,7 @@ Caused by: java.io.IOException: Cannot read full block, EOF reached.
 	at com.trilead.ssh2.transport.TransportManager.receiveLoop(TransportManager.java:706)
 	at com.trilead.ssh2.transport.TransportManager$1.run(TransportManager.java:502)
 	... 1 more
-[07/15/19 12:09:21] [SSH] Authentication failed.
+[07/15/19 12:13:44] [SSH] Authentication failed.
 Authentication failed.
-[07/15/19 12:09:21] Launch failed - cleaning up connection
-[07/15/19 12:09:21] [SSH] Connection closed.
+[07/15/19 12:13:44] Launch failed - cleaning up connection
+[07/15/19 12:13:44] [SSH] Connection closed.

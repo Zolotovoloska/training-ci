@@ -1,0 +1,8 @@
+Branch indexing
+[8mha:////4JBqJzvV45vC136cizn4rNigidrBC9G5CuRr+URunwS8AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHT2z4d+lQB6LaTbjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Obtained Jenkinsfile from 921305fd7a530243e721992151596aa1a6a61dec
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4IuMTAhf9mr5xq5mjMPgQ8LbiR4Y+a3UiA4NGZm3mxP4AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4G3p1hVC/FAk/mt4B45If/on2QW2E0pBEzUaXokiT5niAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+There are no nodes with the label ‘jenkins slave label’

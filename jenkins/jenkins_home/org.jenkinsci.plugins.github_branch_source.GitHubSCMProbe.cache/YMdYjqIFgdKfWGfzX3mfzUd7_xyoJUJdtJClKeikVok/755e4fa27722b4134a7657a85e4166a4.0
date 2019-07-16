@@ -17,21 +17,21 @@ X-GitHub-Request-Id: F166:0634:51906:789F4:5D2C72A6
 Content-Length: 303
 Accept-Ranges: bytes
 Connection: keep-alive
-Date: Mon, 15 Jul 2019 13:19:57 GMT
+Date: Mon, 15 Jul 2019 13:35:05 GMT
 Via: 1.1 varnish
 Cache-Control: max-age=300
 ETag: W/"ba76340886c6ebdfaa7947081b97aa35a52e1fde"
-X-Served-By: cache-fra19134-FRA
+X-Served-By: cache-fra19176-FRA
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1563196797.300681,VS0,VE221
+X-Timer: S1563197705.205543,VS0,VE189
 Vary: Authorization,Accept-Encoding, Accept-Encoding
 Access-Control-Allow-Origin: *
-X-Fastly-Request-ID: 35bebb50acab80d24dc1f65606967c6d54518687
-Expires: Mon, 15 Jul 2019 13:24:57 GMT
+X-Fastly-Request-ID: 2e12649c2f0380af297f136e4bdc003e5b204492
+Expires: Mon, 15 Jul 2019 13:40:05 GMT
 Source-Age: 0
-OkHttp-Sent-Millis: 1563196797299
-OkHttp-Received-Millis: 1563196797552
+OkHttp-Sent-Millis: 1563197705208
+OkHttp-Received-Millis: 1563197705438
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2

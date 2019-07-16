@@ -1,0 +1,22 @@
+commit e85239ca341b9006b1deeb67be451d7b1800b8b9
+tree de81f4f4662a1b079a67334a46edc8723d7ff00b
+parent 921305fd7a530243e721992151596aa1a6a61dec
+author Zolotovoloska <anastasiia.kvas@gmail.com> 2019-07-16 11:26:53 +0300
+committer Zolotovoloska <anastasiia.kvas@gmail.com> 2019-07-16 11:26:53 +0300
+
+    Added Jenkinsfile
+
+
+
+:100644 100644 4308782e5f29a1bd07e21d2f61745dfcd5a345cc 8af8b88c5563964b869a5ae30f254f63b0c08fb7 M	Jenkinsfile
+commit 921305fd7a530243e721992151596aa1a6a61dec
+tree c78d77290012a142ba53fe73d5a172c3f50579a8
+parent 2300936192b589cd93cdf617a618b75a12d5e3b5
+author Zolotovoloska <anastasiia.kvas@gmail.com> 2019-07-16 11:23:38 +0300
+committer Zolotovoloska <anastasiia.kvas@gmail.com> 2019-07-16 11:23:38 +0300
+
+    Added Jenkinsfile
+
+
+
+:100644 100644 8af8b88c5563964b869a5ae30f254f63b0c08fb7 4308782e5f29a1bd07e21d2f61745dfcd5a345cc M	Jenkinsfile

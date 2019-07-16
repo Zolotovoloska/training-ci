@@ -16,20 +16,15 @@ pipeline {
         git(credentialsId: '2116a287-f6a4-4c2f-a5da-61c9f7dcc9ca	', url: 'https://github.com/Zolotovoloska/training-ci', branch: 'master')
       }
     }
-    stage('Run app') {
+    stage('Run Tests') {
       steps {
         dir(path: 'flask-app') {
-          sh 'docker-compose up -d --build'
+          sh '''docker-compose down
+docker-compose build flask-app
+docker-compose run flask-app pytest -v --junit-xml=/var/opt/junit-report/report.xml
+docker-compose down'''
         }
 
-      }
-    }
-    stage('Change Current Dir') {
-      steps {
-        sh '''docker-compose down
-docker-compose build flask-app
-docker-compose run flask-app pytest -v
-docker-compose down'''
       }
     }
   }

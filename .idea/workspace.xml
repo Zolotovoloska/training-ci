@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9a51e77-24b2-4207-b58d-cbdfdda0d3a3" name="Default Changelist" comment="" />
+    <list default="true" id="e9a51e77-24b2-4207-b58d-cbdfdda0d3a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/fingerprints/da/39/edae1695411d6adbbf0ac21bd982.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/fingerprints/da/39/edae1695411d6adbbf0ac21bd982.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/ci-training/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/ci-training/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/ci-training/nextBuildNumber" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/ci-training/nextBuildNumber" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/slaves/jenkins slave/slave.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/logs/slaves/jenkins slave/slave.log" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <ignored path="jenkins/jenkins_home/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -39,6 +47,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -240,10 +249,17 @@
         <state relative-caret-position="-15" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="189" column="2" selection-start-line="189" selection-start-column="2" selection-end-line="189" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>

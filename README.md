@@ -182,3 +182,9 @@ docker-compose down
 4. Check Test Report from Jenkins UI
 
 Go to the next lesson https://github.com/pavlobornia/training-ci/tree/master/lesson2
+
+echo "Testing Build Trigger" > test_trigger.txt
+git add test_trigger.txt
+git commit -m "testing build trigger"
+git push
+//

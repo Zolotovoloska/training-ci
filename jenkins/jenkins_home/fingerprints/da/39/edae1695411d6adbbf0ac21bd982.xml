@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>ci-training</string>
-      <ranges>4</ranges>
+      <ranges>4-6</ranges>
     </entry>
   </usages>
   <facets>

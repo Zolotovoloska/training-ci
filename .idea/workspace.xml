@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9a51e77-24b2-4207-b58d-cbdfdda0d3a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/fingerprints/da/39/edae1695411d6adbbf0ac21bd982.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/fingerprints/da/39/edae1695411d6adbbf0ac21bd982.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/ci-training/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/ci-training/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/ci-training/nextBuildNumber" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/ci-training/nextBuildNumber" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/slaves/jenkins slave/slave.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/logs/slaves/jenkins slave/slave.log" afterDir="false" />
-    </list>
+    <list default="true" id="e9a51e77-24b2-4207-b58d-cbdfdda0d3a3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <ignored path="jenkins/jenkins_home/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Jenkinsfile</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +64,35 @@
               <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
               <item name="training-ci" type="462c0819:PsiDirectoryNode" />
               <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="ci-training" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="training-ci_jenkins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,10 +206,10 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3462069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3462069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.4725877" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -258,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>training-ci/jenkins</string>
-      <ranges>1-17,19-30</ranges>
+      <ranges>1-17,19-31</ranges>
     </entry>
   </usages>
   <facets/>

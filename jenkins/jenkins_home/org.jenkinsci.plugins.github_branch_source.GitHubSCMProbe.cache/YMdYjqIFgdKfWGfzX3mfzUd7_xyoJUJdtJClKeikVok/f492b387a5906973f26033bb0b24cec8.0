@@ -10,17 +10,17 @@ X-OAuth-Scopes: read:user, repo, user:email, write:repo_hook
 X-Accepted-OAuth-Scopes: repo
 X-GitHub-Media-Type: github.v3; format=json
 Content-Encoding: gzip
-Date: Tue, 16 Jul 2019 08:27:23 GMT
+Date: Tue, 16 Jul 2019 09:14:24 GMT
 Content-Type: application/octet-stream
 Server: GitHub.com
 Status: 304 Not Modified
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4960
-X-RateLimit-Reset: 1563269243
+X-RateLimit-Remaining: 4996
+X-RateLimit-Reset: 1563272001
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: "1320db120e4f0a394ececebd3b766501"
-Last-Modified: Mon, 15 Jul 2019 13:23:33 GMT
+ETag: "843555feb879cdc0bdbcddbbb036f804"
+Last-Modified: Tue, 16 Jul 2019 08:30:26 GMT
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -30,9 +30,9 @@ X-XSS-Protection: 1; mode=block
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding
-X-GitHub-Request-Id: DBFC:AF8D:18B28D1:1E9186D:5D2D8A5C
-OkHttp-Sent-Millis: 1563265643389
-OkHttp-Received-Millis: 1563265643617
+X-GitHub-Request-Id: DDFA:402B8:38DE780:4659CDA:5D2D9556
+OkHttp-Sent-Millis: 1563268464388
+OkHttp-Received-Millis: 1563268464593
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2

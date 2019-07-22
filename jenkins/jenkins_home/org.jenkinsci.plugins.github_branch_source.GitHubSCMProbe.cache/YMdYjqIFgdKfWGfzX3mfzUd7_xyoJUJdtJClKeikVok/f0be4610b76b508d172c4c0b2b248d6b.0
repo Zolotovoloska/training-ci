@@ -10,28 +10,28 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-ETag: "8af8b88c5563964b869a5ae30f254f63b0c08fb7"
 Content-Type: text/plain; charset=utf-8
-Cache-Control: max-age=300
 X-Geo-Block-List: 
 X-GitHub-Request-Id: 8580:5778:5A7448:676CED:5D2D8A4F
 Content-Encoding: gzip
 Content-Length: 349
 Accept-Ranges: bytes
-Date: Tue, 16 Jul 2019 08:26:58 GMT
-Via: 1.1 varnish
 Connection: keep-alive
+Date: Tue, 16 Jul 2019 08:30:34 GMT
+Via: 1.1 varnish
+Cache-Control: max-age=300
+ETag: "8af8b88c5563964b869a5ae30f254f63b0c08fb7"
 X-Served-By: cache-fra19174-FRA
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Timer: S1563265618.413470,VS0,VE192
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1563265834.392331,VS0,VE0
 Vary: Authorization,Accept-Encoding
 Access-Control-Allow-Origin: *
-X-Fastly-Request-ID: f4096f435d138fca6e3e99891b90697a839509b0
-Expires: Tue, 16 Jul 2019 08:31:58 GMT
-Source-Age: 0
-OkHttp-Sent-Millis: 1563265618394
-OkHttp-Received-Millis: 1563265618630
+X-Fastly-Request-ID: 0fd4e812c6e144c1723fbf6def1d1549e344c332
+Expires: Tue, 16 Jul 2019 08:35:34 GMT
+Source-Age: 216
+OkHttp-Sent-Millis: 1563265834385
+OkHttp-Received-Millis: 1563265834423
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2

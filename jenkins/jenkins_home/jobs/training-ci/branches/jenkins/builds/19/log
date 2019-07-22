@@ -6,3 +6,10 @@ Running in Durability level: MAX_SURVIVABILITY
 [8mha:////4G3p1hVC/FAk/mt4B45If/on2QW2E0pBEzUaXokiT5niAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
 Still waiting to schedule task
 There are no nodes with the label ‘jenkins slave label’
+Aborted by [8mha:////4L+noxC24vLOEmp/5R3lZ6qf7H+Xipv7LZhL2+qdXpRvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mNastia Kvas
+[8mha:////4LrcfFF/TCoiaAks48cSQlsCVpxmbDbCh9z1SzwCjQaBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbaGesbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/QfNmvKfvAAAAA==[0m[Pipeline] // node
+[8mha:////4Dzd9WvQpsdDoX9nLTo+Bp1/TkKDMSu5gDXwbLvBAf5dAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbmFgZK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8B64OV1bwAAAA=[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: ABORTED

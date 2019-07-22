@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9a51e77-24b2-4207-b58d-cbdfdda0d3a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/fingerprints/6a/86/ed992006f2ed9ee080c5b962fe17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/fingerprints/6a/86/ed992006f2ed9ee080c5b962fe17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/lastFailedBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/lastFailedBuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/lastStableBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/lastStableBuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/lastSuccessfulBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/lastSuccessfulBuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/lastUnsuccessfulBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/lastUnsuccessfulBuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/nextBuildNumber" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/nextBuildNumber" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/scm-last-seen-revision-hash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/scm-last-seen-revision-hash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/scm-revision-hash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/scm-revision-hash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/indexing/indexing.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/indexing/indexing.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/indexing/indexing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/indexing/indexing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/sse-events/job/a81c4e6c-98c6-4cf1-8278-0e0684a51333.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/sse-events/job/e278ce8f-c384-4e69-96b1-8366522935ef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/sse-events/job/ea6806a4-41a7-4302-ad5c-d8bc4658810c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/sse-events/pipeline/1560838f-4adc-4e02-a331-7db0c2622537.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/sse-events/pipeline/6034a610-f29e-40e4-abf4-b0d268b9c2e2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/sse-events/pipeline/706b2ca8-abe5-43a6-8c1a-39e2a4f7a08d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/sse-events/pipeline/d19212ac-79b5-4a40-a619-88d451e7350b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/logs/sse-events/pipeline/fcf377ff-9d8c-4460-9c52-ea9b7c9c5fb6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/1b530f8f251d6094f7985af7081de682.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/1b530f8f251d6094f7985af7081de682.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/206b425da6bdc6a5768416fdf5b10664.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/206b425da6bdc6a5768416fdf5b10664.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/36b2e285aca10eb83837a08dbe438ba4.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/36b2e285aca10eb83837a08dbe438ba4.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/755e4fa27722b4134a7657a85e4166a4.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/755e4fa27722b4134a7657a85e4166a4.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/7c33f39433572695044c185e334121eb.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/7c33f39433572695044c185e334121eb.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/7c33f39433572695044c185e334121eb.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/7c33f39433572695044c185e334121eb.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/8b9d37af1e5f966d532c9fbf4fd61122.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/8b9d37af1e5f966d532c9fbf4fd61122.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/8b9d37af1e5f966d532c9fbf4fd61122.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/8b9d37af1e5f966d532c9fbf4fd61122.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/9e91b1d56879f2eecb554b7dbbb115b7.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/9e91b1d56879f2eecb554b7dbbb115b7.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/9e91b1d56879f2eecb554b7dbbb115b7.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/9e91b1d56879f2eecb554b7dbbb115b7.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/b5c2b32a76227163f6869a2bf256cd06.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/b5c2b32a76227163f6869a2bf256cd06.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/b5c2b32a76227163f6869a2bf256cd06.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/b5c2b32a76227163f6869a2bf256cd06.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/d9be175e835fe720ec5bb7b8e602d065.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/d9be175e835fe720ec5bb7b8e602d065.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/f492b387a5906973f26033bb0b24cec8.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/f492b387a5906973f26033bb0b24cec8.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/f492b387a5906973f26033bb0b24cec8.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/f492b387a5906973f26033bb0b24cec8.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/f64334864d46edc8938fc3673e5a1a07.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/f64334864d46edc8938fc3673e5a1a07.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/f64334864d46edc8938fc3673e5a1a07.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/f64334864d46edc8938fc3673e5a1a07.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/journal" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/org.jenkinsci.plugins.github_branch_source.GitHubSCMProbe.cache/YMdYjqIFgdKfWGfzX3mfzUd7_xyoJUJdtJClKeikVok/journal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/queue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/queue.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/users/users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/users/users.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/workspace/training-ci_jenkins" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins_home/workspace/training-ci_jenkins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jenkins_home/jobs/training-ci/branches/jenkins/builds/19/program.dat" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <ignored path="jenkins/jenkins_home/" />
@@ -67,7 +28,7 @@
       <projects_view />
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="913" />
     <option name="y" value="23" />
     <option name="width" value="767" />
@@ -91,46 +52,6 @@
             <path>
               <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
               <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-              <item name="branches" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="training-ci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins_home" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-              <item name="training-ci" type="462c0819:PsiDirectoryNode" />
-              <item name="branches" type="462c0819:PsiDirectoryNode" />
               <item name="jenkins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -240,15 +161,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="913" y="23" width="767" height="1027" extended-state="1" />
+    <frame x="913" y="23" width="767" height="1027" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.51448274" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.52827585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.4725877" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />

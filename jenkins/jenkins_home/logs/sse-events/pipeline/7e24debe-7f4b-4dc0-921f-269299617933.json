@@ -1,1 +1,0 @@
-{"jenkins_event_uuid":"7e24debe-7f4b-4dc0-921f-269299617933","pipeline_job_name":"training-ci/jenkins","pipeline_run_id":"20","jenkins_event_timestamp":"1563265621111","pipeline_step_name":"node","pipeline_step_flownode_id":"4","jenkins_event":"pipeline_block_start","pipeline_context":"2/3/4","jenkins_instance_url":"http://127.0.0.1:8080/","jenkins_channel":"pipeline"}

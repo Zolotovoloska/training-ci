@@ -1,6 +1,6 @@
 Started by user [8mha:////4L+noxC24vLOEmp/5R3lZ6qf7H+Xipv7LZhL2+qdXpRvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mNastia Kvas
-[Tue Jul 16 08:26:54 UTC 2019] Starting branch indexing...
-[8mha:////4D5nAnRV5WtQDNxKzyej4av0a0Fx3K0TEg84vJlqcASQAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHT2zyfO6wE95nEHjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+[Tue Jul 16 08:38:17 UTC 2019] Starting branch indexing...
+[8mha:////4Ho69YhEBJqObyhn9yux9tEDv7/AHsiQ62Ar6xFBViMDAAAAhR+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHT2z3drbgEAewlv844AAAA=[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
 Examining [8mha:////4Lnrd6cDEiayWMnppRxGOmgBOkTIoc+iM/lYdMDhWcKtAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLGHQySgpKSi20tdPzyzJKE0C6srVj8rPyS/JLwOSxdmJ+iVFiZl5QLN1kzMBgsblnbEAAAA=[0mZolotovoloska/training-ci
 
   Checking branches...
@@ -14,7 +14,7 @@ Examining [8mha:////4Lnrd6cDEiayWMnppRxGOmgBOkTIoc+iM/lYdMDhWcKtAAAAqR+LCAAAAAA
     Checking branch [8mha:////4DyvrgsfQjPU/zlJs103TdREtL7IArLY+fhG8ZaC4YpzAAAAsx+LCAAAAAAAAP9djLENwjAURD9BQE+JWIG4QwKUigakiIaOzgTLdmK+Lfs7CmuwBjQMwTjsgFE6rrh7zb3nB0bBw1zFS7CYVxaDNSLf3ZzwRmNzsCSWxeNV3N07g2wPYyNQkiphGL0hmJY1bzkzHCU7ktcoN52H2Z9u2+9PBn0GGUDnEkwIVorIhTVjUpOK5/S6spM1lmybOjSckecak3tR6cRCsFpgozF8AcdtmD2+AAAA[0mjenkins
       ‘Jenkinsfile’ found
     Met criteria
-Changes detected: jenkins (921305fd7a530243e721992151596aa1a6a61dec → e85239ca341b9006b1deeb67be451d7b1800b8b9)
+Changes detected: jenkins (4a90a281964e88cddbb403f1cb1d5223e1764e6d → 66f8ad5987e9233f79d5cc3904f064daae506cb1)
 Scheduled build for branch: jenkins
 
   2 branches were processed
@@ -27,5 +27,5 @@ Scheduled build for branch: jenkins
 
 Finished examining Zolotovoloska/training-ci
 
-[Tue Jul 16 08:26:57 UTC 2019] Finished branch indexing. Indexing took 2.8 sec
+[Tue Jul 16 08:38:19 UTC 2019] Finished branch indexing. Indexing took 2 sec
 Finished: SUCCESS

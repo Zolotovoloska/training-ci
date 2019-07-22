@@ -167,15 +167,23 @@ docker-compose down</value>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
   </actions>
   <queueId>51</queueId>
   <timestamp>1563265420871</timestamp>
   <startTime>1563265420894</startTime>
-  <duration>0</duration>
+  <result>ABORTED</result>
+  <duration>554825</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
+    <result>ABORTED</result>
     <script>pipeline {
   agent {
     node {
@@ -217,7 +225,7 @@ docker-compose down&apos;&apos;&apos;
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>128904900</long>
+        <long>254224000</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -225,7 +233,7 @@ docker-compose down&apos;&apos;&apos;
       </entry>
       <entry>
         <string>run</string>
-        <long>2195222200</long>
+        <long>2485896800</long>
       </entry>
       <entry>
         <string>parse</string>
@@ -233,16 +241,15 @@ docker-compose down&apos;&apos;&apos;
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>59990500</long>
+        <long>75424600</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>3</iota>
-    <head>1:3</head>
-    <start>2</start>
-    <done>false</done>
+    <iota>5</iota>
+    <head>1:5</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
-  <completed>false</completed>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList"/>
 </flow-build>
